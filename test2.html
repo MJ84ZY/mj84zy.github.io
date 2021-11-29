@@ -30,9 +30,9 @@
               <h1><i class="nes-octocat animate brand-logo"></i>MJ84ZY</h1>
             </a>
             <p><h3>LEE ZHI YING</h3></p>
+            <a class="nes-btn" href="index.html">Index</a>
             <a class="nes-btn" href="resume.html">Resume</a>
             <a class="nes-btn" href="#">R</a>
-            <a class="nes-btn" href="index.html">Re</a>
             <a class="nes-btn" href="#">Res</a>
             <a class="nes-btn" href="#">Resu</a>
             <a class="nes-btn" href="#">Rme</a>
@@ -48,6 +48,9 @@
         </div>
       </header>
 
+      <div>
+        <button type="button" class="nes-btn is-error scroll-btn" :class="{ active: scrollPos > 500 }" @click="window.scrollTo({ top:0, behavior: 'smooth' })"><span>&lt;</span></button>
+      </div>
 </body>
 
 </html>
