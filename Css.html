@@ -44,21 +44,6 @@
             <p>NES.css is NES-style (8bit-like) CSS Framework.</p>
           </section>
 
-          <!-- Articles -->
-          <section class="topic">
-              <h2 id="articles"><a href="#articles">#</a>Articles</h2>
-              <article class="article-link">
-                <h3 class="title">
-                  <a href="https://medium.com/@bc_rikko/why-i-created-and-released-nes-css-ee8966bacd09" target="_blank" rel="noopener"><i class="nes-icon medium"></i><span>Why I created and released NES.css</span></a>
-                </h3>
-              </article>
-              <article class="article-link">
-                <h3 class="title">
-                  <a href="https://github.blog/2019-01-20-release-radar-december-2018/#nes-css-1-0" target="_blank" rel="noopener"><i class="nes-icon github"></i><span>Release Radar·December 2018|The GitHub Blog</span></a>
-                </h3>
-              </article>
-          </section>
-
         </main>
 
         <footer>
@@ -69,10 +54,12 @@
             <a href="https://twitter.com/bc_rikko" target="_blank" rel="noopener">@bc_rikko</a>
           </p>
         </footer>
-        
+
         <!-- FAB Button -->
         <button type="button" class="nes-btn is-error scroll-btn" :class="{ active: scrollPos > 500 }" @click="window.scrollTo({ top:0, behavior: 'smooth' })"><span>&lt;</span></button>
-      </div>
+        <button type="button" class="nes-btn is-error scroll-btn" :class="{ active: scrollPos > 500 }" @click="window.scrollTo({ top:0, behavior: 'smooth' })"><span>&lt;</span></button>
+   
+         </div>
     </div>
   </body>
 </html>
