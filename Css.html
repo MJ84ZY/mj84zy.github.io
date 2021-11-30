@@ -29,7 +29,8 @@
     <![endif]-->
 
     <div id="nescss">
-      <header :class="{ sticky: scrollPos > 50 }">
+      <header id="header">
+        <!--:class="{ sticky: scrollPos > 50 }"-->
         <div class="container">
           <div class="nav-brand">
             <a href="index.html">
@@ -103,13 +104,8 @@
             <a href="https://github.com/MJ84ZY" target="_blank" rel="noopener">@MJ84ZY</a>
           </p>
         </footer>
-
-        <!-- FAB Button -->
-        <button type="button" class="nes-btn is-error scroll-btn" :class="{ active: scrollPos > 500 }" @click="window.scrollTo({ top:0, behavior: 'smooth' })"><span>&lt;</span></button>
-    </div>
-</div>
-<button type="button" class="nes-btn is-error scroll-btn" :class="{ active: scrollPos > 500 }" @click="window.scrollTo({ top:0, behavior: 'smooth' })"><span>&lt;</span></button>
-
+       </div>
+      </div>
   </body>
   <script>
     // When the user scrolls down 50px from the top of the document, resize the header's font size
