@@ -15,7 +15,7 @@
   }
 #loca:before {
     content: '';
-    background: white;
+    background: black;
     width: 8px;
     position: absolute;
     height: 8px;
@@ -23,27 +23,4 @@
     border-radius: 50%;
     top: 33px;
     z-index: 1;
-  }
-
-  /*location symbol1*/
-  #loca2 {
-    box-sizing: border-box;
-      position: relative;
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      border: 5px solid red;
-      border-radius: 100%;
-  }
-  
-  #loca2::after {
-      position: absolute;
-      top: 100%;
-      left: 50%;
-      margin: 1px 0 0 -6px;
-      display: block;
-      content: '';
-      border: 6px solid transparent;
-      border-top: 10px solid red;
-      border-bottom: none;
   }
