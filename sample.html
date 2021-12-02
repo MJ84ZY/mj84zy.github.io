@@ -16,16 +16,19 @@
     <link href="css/dialog-polyfill.css" rel="stylesheet" />
     <link href="css/highlight-theme.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
-   
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
 
     <script src="js/dialog-polyfill.js"></script>
     <script src="js/highlight.js"></script>
     <script src="js/main.js"></script>
     <script src="js/vue.min.js"></script>
+    <script src="js/jquery-3.6.0.min"></script>
+    <script	src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.3/jspdf.min.js"></script>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
 
   </head>
 
@@ -73,7 +76,9 @@
           </section>
           
         </main>
-
+        <div>
+          <button onclick="getPDF()">TEST</button>
+        </div>
         <div class="nes-container with-title is-centered">
           <p class="title">MJ84ZY</p>
           <p>Hello world</p>
