@@ -70,28 +70,32 @@
 
       <div class="container">
         <main class="main-content">
-
-          <!-- About -->
-          <section class="topic">
-            <h2 id="about"><a href="#about">#</a>About</h2>
-            <p>NES.css is NES-style (8bit-like) CSS Framework.</p>
-          </section>
-          
+            <div id="info"> 
+                <div id="score">0</div>
+                <form action="" id="form" name="form">
+                <input type="radio" name='time' value="500" checked='checked'/>简单
+                <input type="radio" name='time' value="300"/>中等
+                <input type="radio" name='time' value="150"/>高级
+                <input type="radio" name='time' value="50"/>神速
+                <input type="button" value="开始" class="button" id="start"/>
+                <input type="button" value="重玩" class="button" id="res"/> 
+                </form>
+                 
+                </div>
+                <div id="main">
+                <div id="home">
+                <!--<div style="background:url(./images/snake0.png) no-repeat;"></div>
+                <div style="background:url(./images/snake1.png) no-repeat; left:20px;"></div>
+                <div style="background:url(./images/snake2.png) no-repeat; left:40px;"></div>
+                <div style="background:url(./images/snake3.png) no-repeat; left:60px;"></div>-->
+                </div>
+                <div class="wall left"></div>
+                <div class="wall right"></div>
+                <div class="wall top"></div>
+                <div class="wall bottom"></div>
+                </div> 
         </main>
-        <div>
-          <button onclick="getPDF()">TEST22</button>
-        </div>
-        <div class="nes-container with-title is-centered">
-          <p class="title">MJ84ZY</p>
-          <p>Hello world</p>
-          <a class="nes-btn" href="#">Normal</a>
-          <button type="button" class="nes-btn is-primary">Primary</button>
-          <button type="button" class="nes-btn is-success">Success</button>
-          <button type="button" class="nes-btn is-warning">Warning</button>
-          <button type="button" class="nes-btn is-error">Error</button>
-           <button type="button" class="nes-btn">Testing</button>
-          <button type="button" class="nes-btn is-disabled">Disabled</button>
-      </div>
+        
 
         <footer>
           <p>
